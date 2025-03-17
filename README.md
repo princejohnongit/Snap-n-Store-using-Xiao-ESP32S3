@@ -84,12 +84,15 @@ pip install flask
 This code runs on the ESP32-CAM. It connects to **WiFi**, captures an image, and sends it to the Flask server.  
 
 ### **🔹 Steps to Upload Code:**
-1. Open **Arduino IDE**  
-2. Install **ESP32 Board** (if not installed)  
-3. Copy and paste this code into Arduino IDE  
-4. **Change WiFi credentials** (`ssid` and `password`)  
-5. Select **ESP32-CAM Board**  
-6. Upload the code 🚀  
+1. Open **Arduino IDE**
+2.  Install **ESP32 Board** (if not installed)
+4. Copy and paste this code into Arduino IDE  
+5. **Change WiFi credentials** (`ssid` and `password`)  
+6. Select **ESP32-CAM Board** and Correct PORT
+7. Copy the Given Code
+8. Enable PSRAM in the Arudino IDE
+9. In CMD, type "ipconfig", copy the IPv4 Address to the URL in the code
+10. Upload the code 🚀  
 
 ```cpp
 #include "esp_camera.h"
